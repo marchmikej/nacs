@@ -21,6 +21,7 @@
               <i class="fab fa-instagram"></i>
             </a>
           </div>
+          <h3 class="title">716.479.2927</h3>
         </div>
       </div>
     </div>
@@ -28,6 +29,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
+            <img height="70" src="/img/FAA_logo.png" alt="FAA" class="rounded">
             <h2 class="title">What we do / Who we are!</h2>
             <h5 class="description">
               Aerial photography and video for both residential and civil needs.  Our staff has over 20 years in the service and contracting industry.  
@@ -64,7 +66,7 @@
                 class="image-container image-right"
                 style="background-image: url('img/bridges.jpg')"
               ></div>
-              <h2 id="pricing">
+              <!-- <h2 id="pricing">
                 Pricing
               </h2>
               <h4>Basic Hourly Rate - $95.00/HR+</h4>
@@ -124,7 +126,7 @@
                   <td>$100+</td>
                   <td>$100+</td>
                 </tr>                                
-              </table>
+              </table> -->
             </div>
           </div>
         </div>

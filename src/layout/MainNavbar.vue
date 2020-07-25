@@ -1,14 +1,19 @@
 <template>
   <navbar
     position="fixed"
-    type="primary"
+    type="info"
     :transparent="transparent"
     :color-on-scroll="colorOnScroll"
     menu-classes="ml-auto"
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        NACS
+        <img height="50" src="/img/nacs_logo_clr.png" alt="NACS" class="rounded">
+        <!-- <div
+          class="image-container"
+          style="background-image: url('img/nacs_log_clr.png')"
+        ></div>
+        ! -->
       </router-link>
       <el-popover
         ref="popover1"
@@ -24,18 +29,12 @@
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href=""
-          target="_blank"
-        >
-          <p>Photography</p>
-        </a>
+          <router-link class="nav-link" :to="{ name: 'photography'}"><p>Photography</p></router-link>
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
-          href=""
+          href="/profile"
           target="_blank"
         >
           <p>Videography</p>
@@ -49,7 +48,7 @@
         >
           <p>Civil</p>
         </a>
-      </li>
+      </li> 
       <li class="nav-item">
         <a           
           class="nav-link"
