@@ -8,19 +8,15 @@
       <nav>
         <ul>
           <li>
-            <a href="">
-              nacs716@gmail.com
-            </a>
+            <a href="mailto:nacs716@gmail.com">nacs716@gmail.com</a>
           </li>
           <li>
-            <a href="">
-              716.479.2927
-            </a>
+            <a href="tel:716-479-2927">716.479.2927</a>
           </li>
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, NACS
+        &copy; NACS {{ year }}
       </div>
     </div>
   </footer>

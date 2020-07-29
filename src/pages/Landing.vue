@@ -8,32 +8,30 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">Niagara Aerial & Civil Services</h1>
           <h2 class="title">Elevate your perspective…</h2>
           <div class="text-center">
             <a href="https://www.facebook.com/NACS716" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="https://twitter.com/nacs716" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-twitter"></i>
-            </a>
             <a href="https://www.instagram.com/nacs716/" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-instagram"></i>
             </a>
+            <a href="https://twitter.com/nacs716" class="btn btn-primary btn-icon btn-round">
+              <i class="fab fa-twitter"></i>
+            </a>
           </div>
-          <h3 class="title">716.479.2927</h3>
         </div>
       </div>
     </div>
     <div class="section section-about-us">
       <div class="container">
+          
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <img height="70" src="/img/FAA_logo.png" alt="FAA" class="rounded">
-            <h2 class="title">What we do / Who we are!</h2>
-            <h5 class="description">
+      
+            <h5 class="summarynacs">
               Aerial photography and video for both residential and civil needs.  Our staff has over 20 years in the service and contracting industry.  
-              Call us at 716-479-2927 for more information or assistance.  We are here to help!
+              Call us at <a href="tel:716-479-2927">716.479.2927</a> for more information or assistance.  We are here to help!
 
             </h5>
           </div>
@@ -220,7 +218,10 @@
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
         <p class="description">Your project is very important to us.</p>
-        <div class="row">
+        
+        
+        <!-- Form that mike needs to get working -->
+        <!-- <div class="row">
           <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
             <fg-input
               class="input-lg"
@@ -252,6 +253,10 @@
               >
             </div>
           </div>
+        </div> -->
+
+        <div class="mt-5">
+          <img height="200" src="/img/FAA_logo.png" alt="FAA" class="rounded">
         </div>
       </div>
     </div>
@@ -292,5 +297,9 @@ td, th {
 
 .theader {
   background-color: #dddddd;
+}
+
+.summarynacs {
+  color: #328ACA;
 }
 </style>

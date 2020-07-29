@@ -8,7 +8,7 @@
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        <img height="50" src="/img/nacs_logo_clr.png" alt="NACS" class="rounded">
+        <img height="35" src="/img/banner_logo.png" alt="NACS" class="rounded">
         <!-- <div
           class="image-container"
           style="background-image: url('img/nacs_log_clr.png')"
@@ -32,53 +32,16 @@
           <router-link class="nav-link" :to="{ name: 'photography'}"><p>Photography</p></router-link>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href="/profile"
-          target="_blank"
-        >
-          <p>Videography</p>
-        </a>
+        <router-link class="nav-link" :to="{ name: 'videography'}"><p>Videography</p></router-link>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href=""
-          target="_blank"
-        >
-          <p>Civil</p>
-        </a>
+        <router-link class="nav-link" :to="{ name: 'civil'}"><p>Civil</p></router-link>
       </li> 
       <li class="nav-item">
-        <a           
-          class="nav-link"
-          href="#pricing"
-          target="_blank">
-          <p>Pricing</p>
-        </a>
+        <router-link class="nav-link" :to="{ name: 'pricing'}"><p>Pricing</p></router-link>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href=""
-          target="_blank"
-        >
-          <p>Contact</p>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Twitter"
-          data-placement="bottom"
-          href="https://twitter.com/nacs716"
-          target="_blank"
-        >
-          <i class="fab fa-twitter"></i>
-          <p class="d-lg-none d-xl-none">Twitter</p>
-        </a>
+        <router-link class="nav-link" :to="{ name: 'contact'}"><p>Contact</p></router-link>
       </li>
       <li class="nav-item">
         <a
@@ -104,6 +67,19 @@
         >
           <i class="fab fa-instagram"></i>
           <p class="d-lg-none d-xl-none">Instagram</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          rel="tooltip"
+          title="Follow us on Twitter"
+          data-placement="bottom"
+          href="https://twitter.com/nacs716"
+          target="_blank"
+        >
+          <i class="fab fa-twitter"></i>
+          <p class="d-lg-none d-xl-none">Twitter</p>
         </a>
       </li>
     </template>
